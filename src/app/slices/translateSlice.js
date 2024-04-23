@@ -18,7 +18,7 @@ const translateSlice = createSlice({
   extraReducers: (builder) => {
     builder.addCase(translateText.pending, (state) => {
       state.isLoading = true;
-      state.answer = '';
+      state.answer = '';//yüklenirken eski metni sil.
     });
 
     builder.addCase(translateText.rejected, (state, action) => {

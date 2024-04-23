@@ -50,7 +50,7 @@ const App = () => {
   return (
     <div className="bg-zinc-900 h-screen text-white grid place-items-center">
       <div className="w-[80vw] max-w-[1100px] flex flex-col justify-center">
-        <h1 className="text-center text-4xl font-semibold">Çeviri +</h1>
+        <h1 className="text-center text-4xl font-semibold mb-10">Çeviri +</h1>
         {/* üst kısım */}
         <div className="flex gap-2 text-black">
           <Select
